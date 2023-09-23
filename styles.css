@@ -1,5 +1,6 @@
 :root {
     --border-radius: 32px;
+    --color-light-blue: #CAC9FF;
 }
 
 @font-face {
@@ -42,12 +43,25 @@ main {
     }
 }
 
+.container h1 {
+    margin: 0;
+    font-size: 18px;
+}
+
+@media (min-width: 420px) {
+    .container h1 {
+        font-size: 24px;
+    }
+}
+
 .result {
     display: inline-block;
     box-sizing: border-box;
     padding: 24px 58px 40px 58px;
-    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    text-align: center;
+    color: var(--color-light-blue);
     background: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
 @media (min-width: 420px) {
