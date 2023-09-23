@@ -1,6 +1,7 @@
 :root {
     --border-radius: 32px;
     --color-light-blue: #CAC9FF;
+    --color-dark-blue: #303B59;
 }
 
 @font-face {
@@ -74,4 +75,12 @@ main {
 
 .summary {
     flex-grow: 1;
+    padding: 24px 30px 30px 30px;
+    color: var(--color-dark-blue);
+}
+
+@media (min-width: 420px) {
+    .summary {
+        padding: 38px 40px 46px 40px;
+    }
 }
