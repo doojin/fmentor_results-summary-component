@@ -1,0 +1,21 @@
+html,
+body,
+main {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 736px;
+    height: 512px;
+    border: solid 1px #ccc;
+}
