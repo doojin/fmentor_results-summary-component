@@ -1,5 +1,5 @@
 :root {
-    --borderRadius: 32px;
+    --border-radius: 32px;
 }
 
 html,
@@ -10,6 +10,7 @@ main {
 
 body {
     margin: 0;
+    background-color: #ebf0fb;
 }
 
 main {
@@ -23,6 +24,7 @@ main {
     flex-direction: column;
     width: 100%;
     height: 100%;
+    background-color: #fff;
 }
 
 @media (min-width: 420px) {
@@ -30,23 +32,23 @@ main {
         flex-direction: row;
         width: 736px;
         height: 512px;
+        border-radius: var(--border-radius);
     }
 }
 
 .result {
     display: inline-block;
-    border-radius: 0 0 var(--borderRadius) var(--borderRadius);
-    border: solid 1px #1d6e07;
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    background: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
 }
 
 @media (min-width: 420px) {
     .result {
         width: 50%;
-        border-radius: var(--borderRadius);
+        border-radius: var(--border-radius);
     }
 }
 
 .summary {
     flex-grow: 1;
-    border: solid 1px #07216e;
 }
