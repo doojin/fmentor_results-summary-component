@@ -38,6 +38,8 @@ main {
 
 .result {
     display: inline-block;
+    box-sizing: border-box;
+    padding: 24px 58px 40px 58px;
     border-radius: 0 0 var(--border-radius) var(--border-radius);
     background: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
 }
@@ -45,6 +47,7 @@ main {
 @media (min-width: 420px) {
     .result {
         width: 50%;
+        padding: 38px 54px 55px 54px;
         border-radius: var(--border-radius);
     }
 }
