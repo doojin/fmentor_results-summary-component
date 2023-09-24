@@ -122,3 +122,17 @@ main {
     font-size: 18px;
     font-weight: 700;
 }
+
+.score-result {
+    margin-top: 24px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media (min-width: 420px) {
+    .score-result  {
+        margin-top: 28px;
+        font-size: 32px;
+    }
+}
