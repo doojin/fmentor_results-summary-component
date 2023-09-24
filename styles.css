@@ -84,3 +84,41 @@ main {
         padding: 38px 40px 46px 40px;
     }
 }
+
+.score {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    margin-top: 24px;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(36.82, 33.47, 200.81, 0) 100%, rgba(36.82, 33.47, 200.81, 0) 100%);
+    border-radius: 50%;
+}
+
+@media (min-width: 420px) {
+    .score {
+        width: 200px;
+        height: 200px;
+        margin-top: 35px;
+    }
+}
+
+.score-value {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 72px;
+}
+
+@media (min-width: 420px) {
+    .score-value {
+        margin-top: 55px;
+        font-size: 72px;
+    }
+}
+
+.score-total {
+    opacity: 0.52;
+    font-size: 18px;
+    font-weight: 700;
+}
