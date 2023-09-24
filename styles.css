@@ -136,3 +136,15 @@ main {
         font-size: 32px;
     }
 }
+
+.score-description {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+@media (min-width: 420px) {
+    .score-description  {
+        margin-top: 14px;
+        font-size: 18px;
+    }
+}
