@@ -249,6 +249,11 @@ main {
     color: #fff;
     background-color: #303b59;
     border-radius: 128px;
+    cursor: pointer;
+}
+
+.continue-button:hover {
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0%, #2F2CE9 100%);
 }
 
 @media (min-width: 420px) {
