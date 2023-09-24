@@ -177,6 +177,18 @@ main {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), linear-gradient(0deg, #FF5555 0%, #FF5555 100%);
 }
 
+.criteria.memory {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), linear-gradient(0deg, #FFB21E 0%, #FFB21E 100%);
+}
+
+.criteria.verbal {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), linear-gradient(0deg, #00BB8F 0%, #00BB8F 100%);
+}
+
+.criteria.visual {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), linear-gradient(0deg, #1125D6 0%, #1125D6 100%);
+}
+
 .criteria .criteria-icon {
     width: 20px;
     height: 20px;
@@ -184,6 +196,18 @@ main {
 
 .criteria.reaction .criteria-icon {
     background: url("./assets/images/icon-reaction.svg");
+}
+
+.criteria.memory .criteria-icon {
+    background: url("./assets/images/icon-memory.svg");
+}
+
+.criteria.verbal .criteria-icon {
+    background: url("./assets/images/icon-verbal.svg");
+}
+
+.criteria.visual .criteria-icon {
+    background: url("./assets/images/icon-visual.svg");
 }
 
 .criteria-name {
@@ -194,6 +218,18 @@ main {
 
 .criteria.reaction .criteria-name {
     color: #ff5555;
+}
+
+.criteria.memory .criteria-name {
+    color: #ffb21e;
+}
+
+.criteria.verbal .criteria-name {
+    color: #00bb8f;
+}
+
+.criteria.visual .criteria-name {
+    color: #1125d6;
 }
 
 .criteria-score {
